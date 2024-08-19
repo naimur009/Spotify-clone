@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <a href="#"><img src="logo-new.png" alt=""></a>
+                <div class="home" id="home">
+                    <span><i class="fa-solid fa-house"></i></span>
+                    <a href="#">Home</a>
+                </div>
+
+                <div class="home">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></i></span>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="lib">
+                <div class="tittle">
+                    <a href="#"> 
+                        <span><i class="fa-regular fa-bookmark"></i></span>
+                        <p>Your Library</p>
+                    </a>
+                    <span><i class="fa-solid fa-plus"></i></span>
+                </div>
+
+
+                <div class="custom">
+                    <div class="sec1" id="sec1">
+                        <p class="head">Create your first playlist</p>
+                        <p class="sub">It's easy, we'll help you</p>
+                        <button>Create playlist</button>
+                    </div>
+    
+                    <div class="sec1">
+                        <p class="head">Let's find some podcast to follow</p>
+                        <p class="sub">We'll keep you updated on new episods</p>
+                        <button>Browse podcasts</button>
+                    </div>
+                </div>
+
+                <div class="privacy">
+                    <div class="line">
+                        <a href="#">Legal</a>
+                        <a href="#">Safety & Privacy Center</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="line">
+                        <a href="#">Cookies</a>
+                        <a href="#">About Ads</a>
+                        <a href="#">Accessibility</a>
+                    </div>
+                    <div class="line" id="line3">
+                        <a href="#">Cookies</a>
+                    </div>
+                </div>
+
+                <button id="btn"><i class="fa-solid fa-earth-americas"></i>English</button>
+            </div>
+
+            
+
+        </div>
+
+
+        <div class="navi">
+            <div class="top_bar">
+                <div class="arrow">
+                    <button><</button>
+                    <button>></button>
+                </div>
+                <div class="login">
+                    <a id="signup">Sign up</a>
+                    <button id="login">Log in</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="song">
+            
+
+            <div class="section" id="artist">
+                <div class="heading">
+                    <h2>Popular artists</h2>
+                    <h4><a href="#">Show all</a></h4>
+                </div>
+                <div class="list">
+
+                    <div class="card">
+                        <div class="item" id="popular">
+                            <img src="https://lh3.googleusercontent.com/sjGMYJQ1J3FZEIBsMYUztMjjYOM4-NJ24CjmIHqxTWCxAM1YgjL-d_17u7_PRhTouOwwAjbu-2x5S6I=w544-h544-p-l90-rj" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>Pritam</h3>
+                        <p>Artist</p>
+                    </div>   
+
+                    <div class="card">
+                        <div class="item" id="popular">
+                            <img src="https://c.saavncdn.com/artists/Arijit_Singh_002_20230323062147_500x500.jpg" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>Arijit Singh</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="item" id="popular">
+                            <img src="https://i.scdn.co/image/ab6761610000e5ebc40600e02356cc86f0debe84" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>Atif Aslam</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="item" id="popular">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeG4DMljBQmpd_9_cLo4wxcvzsqH_2Ir4jNuvomAcmV56muST4" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>Darshan Raval</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="item" id="popular">
+                            <img src="https://i.scdn.co/image/ab6761610000e5ebfb13d10be20fdcb5a670f551" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>Vishal Mishra</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="item" id="popular">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkFqPbTbV0hheAdf_Punw8i8DF07DwATBfog&s" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>Arnab</h3>
+                        <p>Artist</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="heading">
+                    <h2>Popular albums</h2>
+                    <h4><a href="#">Show all</a></h4>
+                </div>
+                <div class="list">
+                    <div class="card">
+                        <div class="item">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02fa9247b68471b82d2125651e" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>D-DAY</h3>
+                        <p>agust D</p>
+                    </div>
+    
+                    <div class="card">
+                        <div class="item">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02f02c451189a709b9a952aaec" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>MUSE</h3>
+                        <p>Jimun</p>
+                    </div>
+    
+                    <div class="card">
+                        <div class="item">
+                            <img src="https://i.scdn.co/image/ab67616d00001e028e001d2d4b55039b545d047e" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>Aalas Ka Pedh</h3>
+                        <p>The Local Train</p>
+                    </div>
+    
+                    <div class="card">
+                        <div class="item">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02741fd4807f442af3f7359316" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>GOLDEN</h3>
+                        <p>jung Kook</p>
+                    </div>
+    
+                    <div class="card">
+                        <div class="item">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02bc6d136d5d9ebdcd5db4bca7" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>Shotto</h3>
+                        <p>Warfaze</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="item">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02a1c00de3e08bfde2c646c7a3" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>Best of Romance: Atif Aslam & Pritam</h3>
+                        <p>Atif Aslam, Pritam</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="section">
+                <div class="heading">
+                    <h2>Popular radio</h2>
+                    <h4><a href="#">Show all</a></h4>
+                </div>
+                <div class="list">
+                    <div class="card">
+                        <div class="item">
+                            <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4YRxDV8wJFPHPTeXepOstw/en-GB" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>Arijit Singh Radio</h3>
+                        <p>With Neha Kakkar, Pritam, KK and more
+                        </p>
+                    </div>
+    
+                    <div class="card">
+                        <div class="item">
+                            <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/06eRdiCBgFUhiuFjei0eH2/en-GB" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>Warfaze Radio</h3>
+                        <p>With Artcell, Arbovirus, Aftermath and more</p>
+                    </div>
+    
+                    <div class="card">
+                        <div class="item">
+                            <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/60jYUgQzKAtnJoXKGk1GNn/en-GB" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>Habib Wahid Radio</h3>
+                        <p>With Hridoy Khan, Balam, Porshi and more</p>
+                    </div>
+    
+                    <div class="card">
+                        <div class="item">
+                            <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/69Tu9c0t0IOf0ipXnE74sQ/en-GB" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>Tahsan Radio</h3>
+                        <p>With Hridoy Khan, Habib Wahid, Pritom Hasan and more</p>
+                    </div>
+    
+                    <div class="card">
+                        <div class="item">
+                            <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4fEkbug6kZzzJ8eYX6Kbbp/en-GB" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>KK RADIO</h3>
+                        <p>With Mohit Chauhan, Ankit Tiwari, Javed Ali and more</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="item">
+                            <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/2oSONSC9zQ4UonDKnLqksx/en-GB" alt="">
+                            <div class="play">
+                                <span><i class="fa-solid fa-play"></i></span>
+                            </div>
+                        </div>
+                        <h3>Atif Aslam Radio</h3>
+                        <p>With Ali Zafar, Rahat Fateh Ali Khan, Asim Azhar and more</p>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="foot">
+                <div class="link">
+                    <div class="line">
+                        <h3>Company</h3>
+                        <a href="#">About</a>
+                        <a href="#">Jobs</a>
+                        <a href="#">For The Record</a>
+                    </div>
+
+                    <div class="line">
+                        <h3>Communities</h3>
+                        <a href="#">For Artists</a>
+                        <a href="#">Developers</a>
+                        <a href="#">Advertising</a>
+                        <a href="#">Investors</a>
+                        <a href="#">Vendors</a>   
+                    </div>
+
+                    <div class="line">
+                        <h3>Useful links</h3>
+                        <a href="#">Support</a>
+                        <a href="#">Free Mobile App</a>  
+                    </div>
+
+                    <div class="line">
+                        <h3>Spotify Plans</h3>
+                        <a href="#">Premium Individual</a>
+                        <a href="#">Premium Duo</a>
+                        <a href="#">Premium Family</a>
+                        <a href="#">Premium Student</a>
+                        <a href="#">Spotify Free</a>   
+                    </div>
+                </div>
+
+                <div class="icons">
+                    <span><i class="fa-brands fa-instagram"></i></span>
+                    <span><i class="fa-brands fa-twitter"></i></span>
+                    <span><i class="fa-brands fa-facebook"></i></span>
+
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <div class="copyright">
+                <p>Created by <span>Naimur Rahman</span></p>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <footer>
+
+        <div class="preview">
+            <div class="msg">
+                <h3>Preview of Spotify</h3>
+                <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+            </div>
+            <button id="login">Sign up for free</button>
+        </div>
+        
+    </footer>
+    
+    
+</body>
+</html>
